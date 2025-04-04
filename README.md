@@ -8,7 +8,11 @@ $ pip install <ABOVE-PACKAGE-NAME>
 ```
 
 ## Running the project
+To create the model and dump it as a pkl file
 ```
-$ python main.py # to create the model and dumping it as pkl file
-$ streamlit run app.py # To run a UI in browser to use the model
+$ python main.py
+```
+To run a UI in the browser to use the model
+```
+$ streamlit run app.py
 ```
